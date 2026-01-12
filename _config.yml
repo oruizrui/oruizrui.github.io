@@ -1,5 +1,10 @@
-remote_theme: pages-themes/minimal@v0.2.0
+title: Oscar Ruiz
+description: Personal website
+theme: minima
+
+sass:
+  quiet_deps: true
+
 plugins:
-  - jekyll-remote-theme
-title: [The title of your site]
-description: [A short description of your site's purpose]
+  - jekyll-feed
+  - jekyll-seo-tag
